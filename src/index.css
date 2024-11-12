@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.draggable-text {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: none;
+}
+
+.draggable-text:hover {
+  cursor: move;
+  cursor: grab;
+}
+
+.draggable-text:active {
+  cursor: grabbing;
+}
